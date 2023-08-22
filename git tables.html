@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        table {
+            border-collapse: collapse;
+            width: 20%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 5px;
+            text-align:left;
+        }
+        header {
+            font-style: italic;
+            text-align: justify;
+            align-content: center;
+            display: flex;
+        }
+        
+        
+        
+    </style>
+</head>
+<body>
+    <header style="font-size: small; ">A Test Table With Merged Cells</header>
+    <table>
+        <tr>
+            <th rowspan="2"></th>
+            <th colspan="2" style="font-size: small; text-align: center;">Average</th>
+            <th rowspan="2" style="width: 70px; text-align: center; font-size: small;">Red <br> eyes</th>
+        </tr>
+        <tr>
+            <th  style="font-size: small;">height</th>
+            <th  style="font-size: small;">weight</th>
+        </tr>
+        <tr>
+            <th  style="font-size: small;">Males</th>
+            <td>1.9</td>
+            <td>0.03</td>
+            <td>40%</td>
+        </tr>
+        <tr>
+            <th  style="font-size: small;">Females</th>
+            <td>1.7</td>
+            <td>0.02</td>
+            <td>43%</td>
+        </tr>
+    </table>
+</body>
+</html>
